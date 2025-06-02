@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* 메인 서식 */
+.product_list {
+  margin: 0px auto 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product_list > li {
+  width: 48.4%;
+  /* overflow: hidden; line-height: 190%; font-size: 13px; */
+  display: inline-block;
+  margin: 0px 1.6% 30px 0px;
+  box-sizing: border-box;
+}
+.product_list img {
+  width: 100%;
+  transition: 0.3s;
+}
+.product_list img:hover {
+  filter: brightness(1.2);
+}
+
+.product_list li p:first-of-type {
+  color: #f0f;
+}
+
+.price {
+  color: rgb(219, 10, 10);
+  text-align: right;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+.btn {
+  border: none;
+  background: rgb(17, 145, 17);
+  color: #fff;
+  padding: 4px 5px;
+}
+
+.create {padding: 0px 1%;}
+.create p {
+  font-size: 1.3em;
+  line-height: 40px;
+}
+.create label {
+  display: inline-block;
+  font-weight: bold;
+  width: 120px;
+  line-height: 40px;
+}
+.create input[type=text] {
+  width: 100%;
+  height: 50px;
+}
+
+.submit_btn {
+  width: 100%;
+  height: 50px;
+  background: rgb(17, 145, 17);
+  border: none;
+  margin: 10px auto;
+  color: #fff;
+}

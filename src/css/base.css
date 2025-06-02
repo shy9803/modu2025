@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root {
+  --base_color: #333;
+  --base_font_size: 12px;
+}
+
+/* 기본 서식 */
+* {margin: 0px; padding: 0px;}
+ol, ul, li {list-style: none;}
+body {
+  font-family: '맑은 고딕', arial, sans-serif;
+  font-size: var(--base_font_size);
+  color: var(--base_color);
+}
+a {text-decoration: none; color: var(--base_color);}
